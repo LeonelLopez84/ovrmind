@@ -7688,6 +7688,10 @@ button.close {
   }
 }
 
+.navbar-default {
+  border: none;
+}
+
 nav {
   background-color: #0cbcd1 !important;
 }

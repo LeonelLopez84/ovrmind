@@ -13,7 +13,9 @@
 
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
-
+.navbar-default{
+	border:none;
+}
 	nav{
 		background-color:$primary_color !important;
 		a{
@@ -30,6 +32,7 @@
 
 		.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
 			background-color:$primary_color !important;
+
 			
 		}
 
