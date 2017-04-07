@@ -1,0 +1,11 @@
+// TV
+@media (min-width: $screen-lg-min) and (orientation : portrait){ 
+	
+}
+@media (min-width: $screen-lg-min) and (orientation: landscape){ 
+	.container{
+		.panel-default{
+			min-height:70vh;
+		}
+	}
+}

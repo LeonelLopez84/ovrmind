@@ -1,0 +1,12 @@
+// Desktops
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) and (orientation : portrait){
+
+}
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) and (orientation: landscape){
+	.container{
+		.panel-default{
+			min-height:70vh;
+		}
+	}
+}
+

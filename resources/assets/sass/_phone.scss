@@ -1,0 +1,12 @@
+// Phones
+@media (max-width: $screen-xs-max) and (orientation : portrait) {
+
+}
+
+@media (max-width: $screen-xs-max) and (orientation: landscape){
+	#content{
+		.post-title{
+			top:-100px;
+		}
+	}
+}
