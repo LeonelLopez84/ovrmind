@@ -4,6 +4,9 @@
 }
 
 @media (max-width: $screen-xs-max) and (orientation: landscape){
+	body{
+		background-color:#2e2e2e;
+	}  
 	#content{
 		.post-title{
 			top:-100px;

@@ -80,9 +80,8 @@
                 </div>
             </div>
         </nav>
-        <div class="container" id="content">
+
             @yield('content')
-        </div>
     </div>
 <footer class="footer">
       <div class="container">

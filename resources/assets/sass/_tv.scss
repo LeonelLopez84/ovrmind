@@ -3,6 +3,9 @@
 	
 }
 @media (min-width: $screen-lg-min) and (orientation: landscape){ 
+	body{
+		background-color:#2d2d2d;
+	}
 	.container{
 		.panel-default{
 			min-height:70vh;

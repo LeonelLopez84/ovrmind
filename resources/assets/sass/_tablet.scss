@@ -4,6 +4,9 @@
 	
 }
 @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) and (orientation: landscape){
+	body{
+		background-color:#2f2f2f;
+	}
 	.container{
 		.panel-default{
 			min-height:70vh;

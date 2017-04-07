@@ -38,16 +38,32 @@
 			}
 	}
 
-#content{
-	@include border_shadow();
-	background-color:#fff;
+.micontainer{
+	background-color:transparent;
 	margin-top:60px;
 	margin-bottom:60px;
+
+}
+#add{
+	label{
+		color:#333;
+	}
+}
+
+#article{
+	color:#ccc;
+}
+
+#home{
+
 	.post-title{
 
-		    display: table-cell;
+		    display: inline-block;
+		    width:100%;
+		    background-color:#34ca78;
 		    vertical-align: bottom;
 		    z-index: 2;
+		    height:20vh;
 		    position: relative;
 		b{
 		    background-color: rgba(51, 51, 51, 0.58);
@@ -58,15 +74,24 @@
 		    margin-top: 5px;
 		}
 	}
-
-	.panel-footer{
-		background-color:transparent !important;
-		padding-top:20px;
+	.panel{
+	@include border_shadow();
+	border-radius:0px;
+	border:none;
+	background-color:#000;
+		.panel-footer{
+			background-color:transparent !important;
+			color:$font_color;
+			border:none;
+			a{
+				color:$font_color;
+			}
+		}
 	}
 
 }
 footer{
-	background-color:#333;
+	background-color:#000;
 	color:#fff;
 	padding:10px;
 	font-weight:bolder;

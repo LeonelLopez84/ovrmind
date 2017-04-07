@@ -1,12 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-
-<div class="row">
-      <div class=" col-xs-offset-2 col-sm-offset-2  col-md-offset-4  col-lg-offset-4 col-xs-8 col-sm-8 col-md-4 col-lg-4">
-        {{ $articles->links() }}
-      </div>
-    </div>
+<div class="container micontainer" id="home">
     <div class="row">
       @foreach($articles as $article)
         
@@ -32,4 +27,5 @@
         {{ $articles->links() }}
       </div>
     </div>
+  </div>
 @endsection

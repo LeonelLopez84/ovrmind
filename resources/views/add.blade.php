@@ -3,7 +3,7 @@
 @section('content')
 
 @include("errors")
-
+<div class="container micontainer" id="add">
 	<div class="row">
 		<div class="col-sm-12 col-md-12">
 			<div class="panel panel-default">
@@ -34,4 +34,5 @@
 			</div>
 		</div>
 	</div>
+</div>
 @endsection

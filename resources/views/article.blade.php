@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+ <div class="container micontainer" id="article">
 	<div class="row">
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 			<h1>{{$article->title}}</h1>
@@ -10,4 +11,5 @@
 			<p class="pull-right"><i class="fa fa-calendar"></i>  {{$article->created_at->diffForHumans()}}</p>
 		</div>
 	</div>
+</div>
 @endsection
